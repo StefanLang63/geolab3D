@@ -20,7 +20,7 @@ radius of r around the point M. It's unclear whether or under which circumstance
 superior to using an equivalent parametric representation.
 
 
-##Examples of functions
+## Examples of functions
 
   * construction of basic 2D and 3D geometric objects
   * definition of Bezier and NURBS spline curves and surfaces
@@ -30,18 +30,18 @@ superior to using an equivalent parametric representation.
   * distance, nearest points, and intersections of two geometric objects.
 
 
-##Advanced topics
+## Advanced topics
 
-###Healing functions
+### Healing functions
 a toolbox of algorithms to analyze a set of geometric objects for assumed properties, and fix those geometries
 as needed.
 
-###Geometric solver
+### Geometric solver
 a toolbox of algorithms stored in a an expert system together with processing statistics such as time complexity.
 The purpose of this solver is to find suitable combinations of stored algorithms to find the result set for a specific operation,
 and select the best candidate regarding complexity and other processing statistics automatically.
 
-###Processing factory
+### Processing factory
 a process that analyses a given set of processing orders for their potential to be processed in parallel on the
 CPU or GPU. Also responsible for providing visual feedback on the current state of processing and pointing out bottlenecks.
 
