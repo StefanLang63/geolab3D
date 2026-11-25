@@ -1,6 +1,17 @@
 # geolab3D
 Toolbox for algorithms around 2D and 3D geometric objects.
 
+## Status (November 2026)
+
+Reviving this project. The notes below are from 2020 and stay as they are.
+
+The next step is the engineering base rather than features: a cross-platform build and test
+scaffold, [cpp-clang-poc](https://github.com/StefanLang63/cpp-clang-poc), covering CMake presets
+for Linux and Windows, clang-tidy, AddressSanitizer, GoogleTest and llvm-cov code coverage. Qt is
+the intended GUI layer once that base is stable.
+
+## Purpose
+
 In the broadest sense, every function in this toolbox takes geometric objects as input, and produces geometric objects as result. Dependend on the function, additional input parameters may be necessary, such as tolerance values.
 
 Geometric objects in the context of this project are parametric one- or two-dimensional manifolds embedded in 2-Space or
